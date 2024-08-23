@@ -42,17 +42,18 @@ function Header() {
       </div>
       <div className=' flex gap-[12px] md:hidden items-center'>
         <img className='w-[120px] ' src={Logo} alt="" />
+        <div className='flex gap-[12px] md:hidden mt-2'>
         {list.map((items, index) => index < 3 && (
           <HeaderItem Icon={items.icon} />
-
+          
         ))}
-        <div className='md:hidden mr-10' onClick={() => {
+        </div>
+        <div className='md:hidden mr-10 mt-2' onClick={() => {
           setToggle(!toggle)
         }}>
           <HeaderItem name='' Icon={HiDotsVertical} />
           {toggle ?
-            <div className='border-gray-700  absolute mt-4 border-2 md:hidden bg-[#121212] '>
-
+            <div className='border-gray-700  absolute mt-4 border-2 px-3 py-2 md:hidden bg-[#121212] '>
               {list.map((items, index) => index >= 3 && index < 6 && (
                 <HeaderItem name={items.name} Icon={items.icon} />
 
