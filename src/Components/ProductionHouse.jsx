@@ -42,11 +42,11 @@ function ProductionHouse() {
     ];
 
     return (
-        <div className='flex gap-2 md:gap-5 p-2 md:px-16  shadow-xl shadow-gray-800'>
+        <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
             {ProductionList.map((item) => (
                 <div
                     key={item.id}
-                    className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer'
+                    className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'
                     onMouseEnter={(e) => e.currentTarget.querySelector('video').play()}
                     onMouseLeave={(e) => e.currentTarget.querySelector('video').pause()}
                 >

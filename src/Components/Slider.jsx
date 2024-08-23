@@ -16,7 +16,14 @@ function Slider() {
                 setMovies(response.data.results);
             })
             .catch((error) => {
-                console.error("Error fetching trending movies:", error);
+                console.error("Error fetching trending movies:", error.message); 
+                if (error.response) {
+                    console.log("Response error:", error.response.data);
+                } else if (error.request) {
+                    console.log("Request error:", error.request);
+                } else {
+                    console.log("Error", error.message);
+                }
             });
     }, []);
     const sliderLeft = (element) =>{
