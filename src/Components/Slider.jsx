@@ -41,7 +41,7 @@ function Slider() {
                 <img
                     key={index}
                     src={ImageUrl + item.backdrop_path}
-                    className='min-w-full  h-[500px] md:h-[500px] object-fill object-center  mr-5 rounded-md  hover:border-[3px] hover:border-gray-400 transition-all duration-150 ease-in-out' 
+                    className='min-w-full max-h-2xl h-[160px] md:h-[500px] object-fill object-center  mr-5 rounded-md  hover:border-[3px] hover:border-gray-400 transition-all duration-150 ease-in-out' 
                     alt={item.title || item.name} 
                 />
             ))}
