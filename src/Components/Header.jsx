@@ -35,8 +35,8 @@ function Header() {
     <div className='flex pt-2 items-center justify-between'>
       <div className=' hidden md:flex gap-[60px] py-5'>
         <img className='w-[120px] mr-2' src={Logo} alt="" />
-        {list.map((items) => (
-          <HeaderItem className='pt-2' name={items.name} Icon={items.icon} />
+        {list.map((items,index) => (
+          <HeaderItem className='pt-2'  key={index} name={items.name} Icon={items.icon} />
 
         ))}
       </div>
@@ -44,7 +44,7 @@ function Header() {
         <img className='w-[120px] ' src={Logo} alt="" />
         <div className='flex gap-[12px] md:hidden mt-2'>
         {list.map((items, index) => index < 3 && (
-          <HeaderItem Icon={items.icon} />
+          <HeaderItem key={index} Icon={items.icon} />
           
         ))}
         </div>
@@ -55,7 +55,7 @@ function Header() {
           {toggle ?
             <div className='border-gray-700  absolute mt-4 border-2 px-3 py-2 md:hidden bg-[#121212] '>
               {list.map((items, index) => index >= 3 && index < 6 && (
-                <HeaderItem name={items.name} Icon={items.icon} />
+                <HeaderItem key={index} name={items.name} Icon={items.icon} />
 
               ))}
             </div> : null}
