@@ -2,30 +2,23 @@ import React, { useEffect, useState } from 'react';
 import GlobalAPI from '../Services/GlobalAPI';
 import { HiChevronLeft,HiChevronRight } from "react-icons/hi";
 import { useRef } from 'react';
+import a1 from './../assets/Genere/a1.jpg'
+import a2 from './../assets/Genere/a2.jpg'
+import a3 from './../assets/Genere/a3.jpg'
+import a4 from './../assets/Genere/a4.jpg'
+import a5 from './../assets/Genere/a5.jpg'
+import f1 from './../assets/Genere/f1.jpg'
+import f4 from './../assets/Genere/f4.jpg'
+import f6 from './../assets/Genere/f6.jpg'
+import s1 from './../assets/Genere/s1.jpg'
+import s2 from './../assets/Genere/s2.jpg'
 const screen = window.innerWidth;
 const ImageUrl = "https://image.tmdb.org/t/p/original";
 
 function Slider() {
-    const [movies, setMovies] = useState([]);
     const elementRef = useRef();
 
-    useEffect(() => {
-        GlobalAPI.getTrendingMovies
-            .then((response) => {
-                console.log(response.data.results);
-                setMovies(response.data.results);
-            })
-            .catch((error) => {
-                console.error("Error fetching trending movies:", error.message); 
-                if (error.response) {
-                    console.log("Response error:", error.response.data);
-                } else if (error.request) {
-                    console.log("Request error:", error.request);
-                } else {
-                    console.log("Error", error.message);
-                }
-            });
-    }, []);
+
     const sliderLeft = (element) =>{
         element.scrollLeft+=screen-110
     }
@@ -35,19 +28,21 @@ function Slider() {
 
     return (
         <div className='flex mx-0'>
-            <HiChevronLeft className='hidden md:block text-white text-[30px] absolute mx-8 mt-[250px] cursor-pointer'onClick={()=>sliderRight(elementRef.current)}/>
+            <HiChevronLeft className='hidden md:block text-white text-[30px] absolute mx-8 mt-[200px] cursor-pointer'onClick={()=>sliderRight(elementRef.current)}/>
         <div className='flex overflow-x-auto w-full px-16 py-4 scrollbar-hide  scroll-smooth' ref={elementRef}>
-            {movies.map((item, index) => (
-                <img
-                    key={index}
-                    src={ImageUrl + item.backdrop_path}
-                    className='min-w-full max-h-2xl h-[160px] md:h-[500px] object-fill object-center  mr-5 rounded-md  hover:border-[3px] hover:border-gray-400 transition-all duration-150 ease-in-out' 
-                    alt={item.title || item.name} 
-                />
-            ))}
-
+            
+        <img src={a1} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll" />
+        <img src={a2} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll" />
+        <img src={a4} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll" />
+        <img src={a5} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll" />
+        <img src={a3} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll" />
+        <img src={f1} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll"/>
+        <img src={f4} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll" />
+        <img src={f6} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll" />
+        <img src={s1} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll" />
+        <img src={s2} className='w-full h-[200px] md:h-96 min-w-full object-center mx-3 rounded-md' alt="scroll" />
         </div>
-        <HiChevronRight className='hidden md:block text-white text-[30px] absolute mx-8 mt-[250px] right-0 cursor-pointer'onClick={()=>sliderLeft(elementRef.current)}/>
+        <HiChevronRight className='hidden md:block text-white text-[30px] absolute mx-8 mt-[200px] right-0 cursor-pointer'onClick={()=>sliderLeft(elementRef.current)}/>
 
         </div>
     );
