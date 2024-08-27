@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import GlobalAPI from '../Services/GlobalAPI';
 import { HiChevronLeft,HiChevronRight } from "react-icons/hi";
 import { useRef } from 'react';
 import a1 from './../assets/Genere/a1.jpg'
@@ -13,7 +12,7 @@ import f6 from './../assets/Genere/f6.jpg'
 import s1 from './../assets/Genere/s1.jpg'
 import s2 from './../assets/Genere/s2.jpg'
 const screen = window.innerWidth;
-const ImageUrl = "https://image.tmdb.org/t/p/original";
+
 
 function Slider() {
     const elementRef = useRef();

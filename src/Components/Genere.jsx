@@ -41,7 +41,7 @@ function Genere() {
   return (
     <div>
       <div>
-      <h1 className='text-white sm:text-[2px] font-bold  ml-2 md:ml-[60px]  mb-3'>Action</h1>
+      <h1 className='text-white  font-bold  ml-2 md:ml-[60px]  mb-3'>Action</h1>
     <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
         <img src={a1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
