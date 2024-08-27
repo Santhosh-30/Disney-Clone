@@ -35,18 +35,18 @@ function Header() {
     <div className='flex pt-2 items-center justify-between'>
       <div className=' hidden md:flex gap-[60px] py-5'>
         <img className='w-[120px] mr-2' src={Logo} alt="" />
-        {list.map((items,index) => (
-          <HeaderItem className='pt-2'  key={index} name={items.name} Icon={items.icon} />
+        {list.map((items, index) => (
+          <HeaderItem className='pt-2' key={index} name={items.name} Icon={items.icon} />
 
         ))}
       </div>
       <div className=' flex gap-[12px] md:hidden items-center'>
         <img className='w-[120px] ' src={Logo} alt="" />
         <div className='flex gap-[12px] md:hidden mt-2'>
-        {list.map((items, index) => index < 3 && (
-          <HeaderItem key={index} Icon={items.icon} />
-          
-        ))}
+          {list.map((items, index) => index < 3 && (
+            <HeaderItem key={index} Icon={items.icon} />
+
+          ))}
         </div>
         <div className='md:hidden mr-10 mt-2' onClick={() => {
           setToggle(!toggle)

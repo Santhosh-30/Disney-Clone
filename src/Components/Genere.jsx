@@ -41,134 +41,134 @@ function Genere() {
   return (
     <div>
       <div>
-      <h1 className='text-white  font-bold  ml-2 md:ml-[60px]  mb-3 hover:underline underline-offset-8'>Action</h1>
-    <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={a1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
+        <h1 className='text-white  font-bold  ml-2 md:ml-[60px]  mb-3 hover:underline underline-offset-8'>Action</h1>
+        <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={a1} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={a2} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={a3} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={a4} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={a5} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+        </div>
       </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={a2} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
+      <div>
+        <h1 className='text-white font-bold ml-2 md:ml-[60px] mb-3 hover:underline underline-offset-8'>Comedy</h1>
+        <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c1} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c2} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c3} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c4} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c5} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c6} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c7} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c8} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c9} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={c10} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+        </div>
       </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={a3} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
+      <div>
+        <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2 hover:underline underline-offset-8'>Fantasy</h1>
+        <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={f1} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={f2} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={f3} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={f4} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={f5} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+        </div>
       </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={a4} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
+      <div>
+        <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2 hover:underline underline-offset-8'>Horror</h1>
+        <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h1} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h2} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h3} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h4} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h5} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h6} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h7} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h8} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h9} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={h10} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+        </div>
       </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={a5} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-    </div>
-    </div>
-    <div>
-      <h1 className='text-white font-bold ml-2 md:ml-[60px] mb-3 hover:underline underline-offset-8'>Comedy</h1>
-    <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c2} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c3} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c4} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c5} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c6} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c7} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c8} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c9} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={c10} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-    </div>
-    </div>
-    <div>
-      <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2 hover:underline underline-offset-8'>Fantasy</h1>
-    <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={f1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={f2} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={f3} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={f4} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={f5} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      </div>
-    </div>
-    <div>
-      <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2 hover:underline underline-offset-8'>Horror</h1>
-    <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h2} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h3} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h4} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h5} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h6} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h7} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h8} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h9} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h10} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-    </div>
-    </div>
-    <div>
-      <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2 hover:underline underline-offset-8'>SuperHero</h1>
-    <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={s1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={s2} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={s3} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={s4} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={s5} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
-      </div>
-      </div>
+      <div>
+        <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2 hover:underline underline-offset-8'>SuperHero</h1>
+        <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={s1} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={s2} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={s3} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={s4} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+          <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
+            <img src={s5} className='w-full h-full object-cover rounded-md z-0' alt="Production House" />
+          </div>
+        </div>
       </div>
     </div>
   )
