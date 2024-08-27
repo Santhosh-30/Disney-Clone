@@ -41,7 +41,7 @@ function Genere() {
   return (
     <div>
       <div>
-      <h1 className='text-white  font-bold  ml-2 md:ml-[60px]  mb-3'>Action</h1>
+      <h1 className='text-white  font-bold  ml-2 md:ml-[60px]  mb-3 hover:underline underline-offset-8'>Action</h1>
     <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
         <img src={a1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
@@ -61,7 +61,7 @@ function Genere() {
     </div>
     </div>
     <div>
-      <h1 className='text-white font-bold ml-2 md:ml-[60px] mb-3'>Comedy</h1>
+      <h1 className='text-white font-bold ml-2 md:ml-[60px] mb-3 hover:underline underline-offset-8'>Comedy</h1>
     <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
         <img src={c1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
@@ -96,7 +96,7 @@ function Genere() {
     </div>
     </div>
     <div>
-      <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2'>Fantasy</h1>
+      <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2 hover:underline underline-offset-8'>Fantasy</h1>
     <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
         <img src={f1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
@@ -116,7 +116,7 @@ function Genere() {
       </div>
     </div>
     <div>
-      <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2'>Horror</h1>
+      <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2 hover:underline underline-offset-8'>Horror</h1>
     <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
         <img src={h1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
@@ -134,24 +134,24 @@ function Genere() {
         <img src={h5} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
       </div>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
+        <img src={h6} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
       </div>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h2} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
+        <img src={h7} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
       </div>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h3} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
+        <img src={h8} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
       </div>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h4} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
+        <img src={h9} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
       </div>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
-        <img src={h5} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
+        <img src={h10} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
       </div>
     </div>
     </div>
     <div>
-      <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2'>SuperHero</h1>
+      <h1 className='text-white font-bold md:ml-[60px] mb-3 ml-2 hover:underline underline-offset-8'>SuperHero</h1>
     <div className='flex gap-2 md:gap-5 p-2 md:px-16'>
       <div className='relative border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-150 ease-in-out cursor-pointer  shadow-xl shadow-gray-800'>
         <img src={s1} className='w-full h-full object-cover rounded-md z-0' alt="Production House"/>
